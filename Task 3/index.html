@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML Form Elements</title>
+</head>
+<body>
+
+<h2>Basic HTML Form Elements</h2>
+
+<form>
+
+
+<fieldset>
+    <legend>Personal Information</legend>
+    Name (Text):
+    <input type="text" name="name">
+</fieldset>
+
+<br>
+
+
+<fieldset>
+    <legend>Contact & Security</legend>
+    Email:
+    <input type="email" name="email"><br><br>
+    Password:
+    <input type="password" name="password">
+</fieldset>
+
+<br>
+
+
+<fieldset>
+    <legend>Preferences</legend>
+    Favorite Color:
+    <input type="color" name="color">
+</fieldset>
+
+<br>
+
+
+<fieldset>
+    <legend>Range & Options</legend>
+
+    Volume (Range 0-100):
+    <input type="range" min="0" max="100"><br><br>
+
+    Select your favorite pet:<br>
+    <input type="radio" name="pet" value="dog"> Dog<br>
+    <input type="radio" name="pet" value="cat"> Cat<br>
+    <input type="radio" name="pet" value="bird"> Bird<br><br>
+
+    Interests (Check all that apply):<br>
+    <input type="checkbox" name="interest" value="coding"> Coding<br>
+    <input type="checkbox" name="interest" value="music"> Music<br>
+    <input type="checkbox" name="interest" value="travel"> Travel
+</fieldset>
+
+<br>
+
+
+<fieldset>
+    <legend>Selection</legend>
+    Choose a Country:
+    <select>
+        <option>United Kingdom</option>
+        <option>Egypt</option>
+        <option>USA</option>
+        <option>Germany</option>
+    </select>
+</fieldset>
+
+<br>
+
+
+<fieldset>
+    <legend>Comments</legend>
+    Your Comments (Textarea):<br>
+    <textarea rows="4" cols="40"></textarea>
+</fieldset>
+
+<br>
+
+
+<fieldset>
+    <legend>File Upload</legend>
+    Upload a File:
+    <input type="file">
+</fieldset>
+
+<br>
+
+
+<fieldset>
+    <legend>Specialized Text Inputs</legend>
+    Search this site:
+    <input type="search"><br><br>
+    Your Website URL:
+    <input type="url" placeholder="https://example.com">
+</fieldset>
+
+<br>
+
+
+<fieldset>
+    <legend>Date & Time</legend>
+    Date:
+    <input type="date"><br><br>
+    Month:
+    <input type="month"><br><br>
+    Time:
+    <input type="time">
+</fieldset>
+
+<br>
+
+
+<fieldset>
+    <legend>Datalist (Suggestions)</legend>
+    Choose a Browser (with suggestions):
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+        <option value="Facebook">
+    </datalist>
+</fieldset>
+
+<br>
+
+<input type="submit" value="Submit Form">
+<input type="reset" value="Clear Form">
+
+</form>
+
+</body>
+</html>
